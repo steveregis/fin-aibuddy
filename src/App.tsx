@@ -5,7 +5,9 @@ import dayjs from './utils/dayjs';
 import { ChatMessage } from './types';
 
 // Your FastAPI endpoint
-const API_URL = 'http://bank-chatbot-0125.eastus.azurecontainer.io:8000/api/chat';
+//const API_URL = 'http://bank-chatbot-0125.eastus.azurecontainer.io:8000/api/chat';
+
+const API_URL = 'http://marsbank.eastus.cloudapp.azure.com/api/chat';
 
 function App() {
   const [messages, setMessages] = useState<ChatMessage[]>(() => {
