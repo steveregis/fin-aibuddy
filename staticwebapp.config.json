@@ -1,6 +1,10 @@
 {
     "globalHeaders": {
       "Content-Security-Policy": "upgrade-insecure-requests"
-    }
+    },
+    
+      "navigationFallback": {
+        "rewrite": "/index.html"
+      }
   }
   
